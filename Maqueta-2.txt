@@ -1,0 +1,25 @@
+html:
+<body>
+    <header class="header">
+        <section id="logo">logo</section>
+        <section id="banner">banner</section>
+    </header>
+    <nav>nav</nav>
+    <main class="main">
+        <article>article</article>
+        <aside id="right">aside right</aside>
+    </main>
+    <footer class="footer">footer</footer>
+</body>
+
+css:
+.header {
+    width: 1000px;
+    height: 200px;
+    background-color: brown;
+}
+.main {
+    width: 1000px;
+    height: 500px;
+    background-color: coral;
+}

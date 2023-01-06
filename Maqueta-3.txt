@@ -1,0 +1,149 @@
+html:
+ <body>
+        <nav>
+            <section class="box-1">box-1</section>
+            <section class="box-2">box-2</section>
+            <section class="box-3">box-3</section>
+            <section class="box-4">box-4</section>
+            <section class="box-5">box-5</section>
+        </nav>
+        <header class="header">
+            <section id="banner">banner</section>
+            <section id="logo">logo</section>
+            <section id="login">login</section>
+            <section id="form">form</section>
+        </header>
+        <main>
+            <aside id="left">aside left</aside>
+            <article id="article">article</article>
+            <aside id="right">aside right</aside>
+        </main>
+        <footer class="footer">footer</footer>
+    </body>
+</html>
+
+css:
+/*Configuracion gral. de la pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body {
+    width: 1000px;
+    height: 950px;
+    margin: auto;
+}
+
+.nav{
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+
+.box-1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    border-style:solid;
+    background-color
+:burlywood;
+}
+.box-2{
+    width: 200px;
+    height: 100px;
+    float: left;
+    border-style:solid;
+    background-color: blueviolet;
+}
+.box-3{
+    width: 200px;
+    height: 100px;
+    float: left;
+    border-style:solid;
+    background-color: chartreuse;
+}
+.box-4{
+    width: 200px;
+    height: 100px;
+    float: left;
+    border-style:solid;
+    background-color: darkslateblue;
+}
+.box-5{
+    width: 200px;
+    height: 100px;
+    float: left;
+    border-style:solid;
+    background-color:orange;
+}
+
+.header{
+    width: 1000px;
+    height: 300px;
+}
+section#banner{
+    width: 800px;
+    height: 300px;
+    float: left;
+    background-color: aqua;
+    border-style:solid;
+}
+
+section#logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color:brown;
+    border-style:solid;
+}
+section#login{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color:darkgreen;
+    border-style:solid;
+}
+section#form{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color:gray;
+    border-style:solid;
+}
+
+aside#left{
+    width: 200px;
+    height: 500px;
+    float:left;
+    background-color: darkslategrey;
+    border-style: solid;
+}
+
+article{
+    width: 500px;
+    height: 500px;
+    float: left;
+    background-color: lightgreen;
+    border-style: solid;
+}
+
+aside#right{
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color:lime;
+    border-style: solid;
+}
+
+.footer{
+    width: 1000px;
+    height: 50px;
+    float: left;
+    background-color: rosybrown;
+    border-style: solid;
+}
+

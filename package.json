@@ -1,0 +1,19 @@
+{
+  "name": "proyectoeva",
+  "version": "1.0.0",
+  "description": "portfolio web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lord-Char/proyectoEva.git"
+  },
+  "author": "MNBS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lord-Char/proyectoEva/issues"
+  },
+  "homepage": "https://github.com/Lord-Char/proyectoEva#readme"
+}

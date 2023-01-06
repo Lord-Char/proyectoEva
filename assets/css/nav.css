@@ -1,0 +1,11 @@
+.navegacion {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+}        
+
+.navegacion a {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}

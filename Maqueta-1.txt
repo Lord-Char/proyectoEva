@@ -1,0 +1,29 @@
+html:
+<header class="header">
+        <section id="banner">banner</section>
+        <section id="logo">logo</section>
+        <section id="login">login</section>        
+    </header>
+    <nav>nav</nav> 
+    <main class="main">
+        <section>
+            <aside id="left">aside left</aside>
+            <article>article</article>
+            <aside id="right">aside right</aside>
+        </section>
+    </main>
+    <footer class="footer">footer
+    </footer>
+css (partes que faltan para el modelo):
+section#login{
+    width: 250px;
+    height: 125px;
+    float: left;
+    background-color:darkgreen;
+}
+aside#left {
+    width: 150px;
+    height: 400px;
+    float: left;
+    background-color: darkgray;
+}

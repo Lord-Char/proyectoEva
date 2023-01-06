@@ -1,0 +1,6 @@
+/*El min-width esta en valor % para que no aparezcan 
+    barras de desplazamiento horizontales*/
+    /*min-width: 100%;*/
+    /*El min-height configura el sitio para que tenga
+    un alto completo y sea responsive*/
+    /*min-height: 100vh;*/
